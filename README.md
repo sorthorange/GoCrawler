@@ -104,4 +104,18 @@ type vtuber struct {
 	Vtuber_Name string //Vtuber名字（kksk）
 }
    ```
+   SQL代码
+   ```
+   create table dd
+(
+    V_id          int auto_increment,
+    Live_Name   varchar(50),
+    Vtuber_Name varchar(50),
+    Vtuber_Url  varchar(50),
+    primary key (`V_id`,`Vtuber_Url`)
+);
+
+   ```
+   
+
    
